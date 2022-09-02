@@ -12,6 +12,21 @@ module.exports = {
       lg: '1200px',
       xl: '1400px',
     },
+    extend: {
+      margin: {
+        11: '2.75rem',
+      },
+      colors: {
+        'pink-6': '#E64980',
+        border: '#E9ECEF',
+      },
+      height: {
+        15: '3.75rem',
+      },
+      fontSize: {
+        '2.5xl': '1.75rem',
+      },
+    },
   },
   plugins: [],
 }

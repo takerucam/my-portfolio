@@ -17,7 +17,7 @@ type Props = {
 
 const Home: NextPage<Props> = ({ blogs, portfolios }) => {
   return (
-    <div className='relative h-screen'>
+    <div>
       <HeaderSection />
       <div className='px-4'>
         <SectionTitle title='Blog' />

@@ -35,36 +35,44 @@ export const Header: React.FC = () => {
               />
             </div>
             <Link href='/about'>
-              <div
-                className='pb-4 text-[28px] font-bold text-white'
-                onClick={() => setOpened(false)}
-              >
-                About
-              </div>
+              <a>
+                <div
+                  className='pb-4 text-[28px] font-bold text-white'
+                  onClick={() => setOpened(false)}
+                >
+                  About
+                </div>
+              </a>
             </Link>
             <Link href='/blog'>
-              <div
-                className='pb-4 text-[28px] font-bold text-white'
-                onClick={() => setOpened(false)}
-              >
-                Blog
-              </div>
+              <a>
+                <div
+                  className='pb-4 text-[28px] font-bold text-white'
+                  onClick={() => setOpened(false)}
+                >
+                  Blog
+                </div>
+              </a>
             </Link>
             <Link href='/portfolio'>
-              <div
-                className='pb-4 text-[28px] font-bold text-white'
-                onClick={() => setOpened(false)}
-              >
-                Portfolio
-              </div>
+              <a>
+                <div
+                  className='pb-4 text-[28px] font-bold text-white'
+                  onClick={() => setOpened(false)}
+                >
+                  Portfolio
+                </div>
+              </a>
             </Link>
             <Link href='/contact'>
-              <div
-                className='pb-4 text-[28px] font-bold text-white'
-                onClick={() => setOpened(false)}
-              >
-                Contact
-              </div>
+              <a>
+                <div
+                  className='pb-4 text-[28px] font-bold text-white'
+                  onClick={() => setOpened(false)}
+                >
+                  Contact
+                </div>
+              </a>
             </Link>
           </div>
         </Overlay>
@@ -76,7 +84,9 @@ export const Header: React.FC = () => {
           title={title}
         />
         <Link href='/'>
-          <div className='font-bold'>Shimabu IT University</div>
+          <a>
+            <div className='font-bold text-black'>Shimabu IT University</div>
+          </a>
         </Link>
         <ActionIcon
           variant='outline'

@@ -1,3 +1,4 @@
+import 'src/styles/mantineBase.css'
 import 'src/lib/tailwind.css'
 import {
   // eslint-disable-next-line import/named

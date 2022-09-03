@@ -28,5 +28,9 @@ module.exports = {
       },
     },
   },
+  corePlugins: {
+    preflight: false, // リセットCSSの無効化
+  },
+  important: '#__next',
   plugins: [],
 }

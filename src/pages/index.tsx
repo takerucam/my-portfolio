@@ -33,7 +33,7 @@ const Home: NextPage<Props> = ({ blogs, portfolios }) => {
             <Button link='/blog' />
           </div>
           <SectionTitle title='Portfolio' />
-          <div className={`${isTablet ? '' : 'grid grid-cols-3 gap-4'}`}>
+          <div className={`${isTablet ? '' : 'flex flex-wrap gap-4'}`}>
             {portfolios.map((portfolio: Data) => (
               <div key={portfolio.id}>
                 <PortfolioSection data={portfolio} />
